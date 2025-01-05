@@ -1,18 +1,22 @@
 module github.com/xuri/excelize/v2
 
-go 1.15
+go 1.20
+
+require (
+	github.com/richardlehane/mscfb v1.0.4
+	github.com/stretchr/testify v1.9.0
+	github.com/tiendc/go-deepcopy v1.2.0
+	github.com/xuri/efp v0.0.0-20241211021726-c4e992084aa6
+	github.com/xuri/nfp v0.0.0-20240318013403-ab9948c2c4a7
+	golang.org/x/crypto v0.31.0
+	golang.org/x/image v0.18.0
+	golang.org/x/net v0.33.0
+	golang.org/x/text v0.21.0
+)
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
-	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
-	github.com/richardlehane/mscfb v1.0.4
-	github.com/richardlehane/msoleps v1.0.3 // indirect
-	github.com/stretchr/testify v1.7.1
-	github.com/xuri/efp v0.0.0-20220603152613-6918739fd470
-	github.com/xuri/nfp v0.0.0-20220409054826-5e722a1d9e22
-	golang.org/x/crypto v0.0.0-20221005025214-4161e89ecf1b
-	golang.org/x/image v0.0.0-20220413100746-70e8d0d3baa9
-	golang.org/x/net v0.0.0-20221004154528-8021a29435af
-	golang.org/x/text v0.3.7
-	gopkg.in/yaml.v3 v3.0.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/richardlehane/msoleps v1.0.4 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
